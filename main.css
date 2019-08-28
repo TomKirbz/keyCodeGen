@@ -16,12 +16,12 @@ body {
 #heading {
     margin: 0 auto 50px auto;
     color: rgb(255, 255, 255);
-    font-size: 600%;
+    font-size: 5vw;
 }
 
 #faces {
     color: rgb(255, 255, 255);
-    font-size: 600%;
+    font-size: 5vw;
 }
 
 .mainContainer {
@@ -29,29 +29,31 @@ body {
     justify-content: center;
     height: 300px;
     text-align: center;
+    flex-wrap: wrap;
 }
 .numberContainer {
-    margin: 0 100px 0 100px;
+    margin: 10px;
     border: 1px solid black;
-    width: 33%;
+    width: 600px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px grey;  
 }
 
 .charContainer {
-    margin: 0 100px 0 100px;
+    margin: 10px;
     border: 1px solid black;
-    width: 33%;
+    width: 600px;;
     border-radius: 20px;
-    box-shadow: 2px 2px 10px grey;  
+    box-shadow: 2px 2px 10px grey;
 }
 
 .charNameContainer {
-    margin: 0 100px 0 100px;
+    margin: 10px;
     border: 1px solid black;
-    width: 33%;
+    width: 600px;
     border-radius: 20px;
-    box-shadow: 2px 2px 10px grey;  
+    box-shadow: 2px 2px 10px grey;
+    
 }
 
 .boxTitle {
@@ -64,7 +66,7 @@ body {
 }
 
 #eventWhich {
-    font-size: 600%;
+    font-size: 4vw;
     margin: 0 0 0 0;
     padding: 45px;
     background-color: white;
@@ -75,7 +77,7 @@ body {
 }
 
 #eventKey {
-    font-size: 600%;
+    font-size: 4vw;
     margin: 0 0 0 0;
     padding: 45px;
     height: 130px;
@@ -85,7 +87,7 @@ body {
 }
 
 #eventCode {
-    font-size: 600%;
+    font-size: 4vw;
     margin: 0 0 0 0;
     padding: 45px;
     height: 130px;
