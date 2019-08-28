@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(196, 226, 235);
+    font-family: 'Gayathri', sans-serif;
+}
+
+#banner {
+    width: 100%;
+    margin: 200px auto 100px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    
+}
+
+#heading {
+    margin: 0 auto 50px auto;
+    color: rgb(255, 255, 255);
+    font-size: 600%;
+}
+
+#faces {
+    color: rgb(255, 255, 255);
+    font-size: 600%;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+}
+.numberContainer {
+    margin: 0 100px 0 100px;
+    border: 1px solid black;
+    width: 33%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;  
+}
+
+.charContainer {
+    margin: 0 100px 0 100px;
+    border: 1px solid black;
+    width: 33%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;  
+}
+
+.charNameContainer {
+    margin: 0 100px 0 100px;
+    border: 1px solid black;
+    width: 33%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;  
+}
+
+.boxTitle {
+    font-size: 200%;
+    background-color: rgb(169, 165, 223);
+    margin: 0 0 0 0;
+    padding: 20px 0 20px 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#eventWhich {
+    font-size: 600%;
+    margin: 0 0 0 0;
+    padding: 45px;
+    background-color: white;
+    height: 130px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+#eventKey {
+    font-size: 600%;
+    margin: 0 0 0 0;
+    padding: 45px;
+    height: 130px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+}
+
+#eventCode {
+    font-size: 600%;
+    margin: 0 0 0 0;
+    padding: 45px;
+    height: 130px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+}
